@@ -1,0 +1,83 @@
+* {
+    padding: 0;  
+    margin: 0;
+    box-sizing: border-box; 
+   }
+   
+   body{
+       font-family: comic-sans;
+   }
+       
+    h1{
+        padding: 20px 20px;
+        font-size: 70px;
+        font-style: oblique;
+    
+    }
+    
+    
+    header{
+        height: 500px;
+        position: relative;
+        background-image: url(./assets2/design2_image1.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    #titulo{
+        background-color: white;
+        color: black;
+        text-align: center;
+        border: 3px solid black;
+    }
+    
+    .fcc-btn {
+        background-color: blue;
+        color: white;
+        padding: 5px;
+        text-decoration: none;
+        margin: 5px;
+    }
+    nav>a{
+        display: inline;
+        translate: 10px;
+        }
+    nav{
+        text-align: right;
+    }
+        
+    .logo{
+        height: 72px;
+        width: 72px;
+        bottom: 60px;
+        margin-left: 35px;
+    }
+    
+    section{
+        padding-left: 50px;
+        margin-left: 2px;
+        border: 2px solid transparent;
+        position: relative;
+    
+    }
+    
+    article{
+        margin-left: 20px;
+        padding-left: 200px;
+        height: 50px;
+        display: inline-block;
+        position: relative;
+       
+        
+    }
+    
+    img{
+        margin-left: 850px;
+        width: 120px;
+        height: 100px
+    }
+    
+    
+    footer{
+        text-align: center;
+    }
