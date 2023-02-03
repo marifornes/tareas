@@ -1,0 +1,118 @@
+* {
+    padding: 0;  
+    margin: 0;
+    box-sizing: border-box; 
+   }
+
+body{
+       font-family:'Times New Roman', Times, serif;
+}
+
+
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header {
+    height: 350px;
+    position: static;
+    background-image: url(./assets3/hockey_1.jpg);
+    background-size: 100%;
+}
+
+#titulo{
+    background-color: red;
+    color: black;
+    text-align: center;
+    border: 3px solid black;
+}
+.fcc-btn {
+    background-color: grey;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 7px;
+    
+   
+}
+
+
+nav>a{
+
+    display: inline;
+    translate: 10px;
+}
+
+nav{
+    text-align: right;
+}
+
+figure{
+    margin-right: 50px;
+}
+
+section{
+    padding-left: 50px;
+    margin-left: 10px;
+}
+
+figure.logo {
+    position: absolute;
+    top: 363px;
+}
+
+article {
+    padding-left: 200px;
+    height: 300px;
+    display: inline-block;
+    position: absolute;
+    top: 600px;
+}
+
+img{
+    height: 70px;
+}
+
+
+ div#intro {
+    margin-top: -126px;
+    max-height: 74px;
+    /* margin-block: initial; */
+    /* padding-top: initial; */
+    /* flex-wrap: nowrap; */
+    justify-content: right;
+}
+element.style {
+    text-align: center;
+    gap: 20px;
+}
+.cuerpo {
+    margin-top: 20px;
+}
+
+div#cuerpo2 {
+    margin-top: 20px;
+}
+
+
+
+div#subtitulo {
+    justify-content: center;
+    text-align: center;
+}
+
+figure.logo {
+    position: absolute;
+    top: 363px;
+}
+
+
+footer{margin-top: 500px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: firebrick;
+    
+}

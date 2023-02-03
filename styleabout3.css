@@ -1,0 +1,92 @@
+* {
+    padding: 0;  
+    margin: 0;
+    box-sizing: border-box; 
+   }
+
+body{
+       font-family:'Times New Roman', Times, serif;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+header{
+    height: 350px;
+    position: relative;
+    background-image: url(./assets3/hockey_1.jpg);
+    background-size: 100%;
+  
+}
+
+#titulo{
+    background-color: red;
+    color: black;
+    text-align: center;
+    border: 3px solid black;
+}
+
+.fcc-btn {
+    background-color: grey;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+nav>a{
+
+    display: inline;
+    translate: 10px;
+}
+
+nav{
+    text-align: right;
+}
+
+
+section.contenido-flex {
+    
+    display: flex;
+    justify-content: space-around;
+}
+div#container {
+    margin-top: -126px;
+    max-height: 74px;
+    justify-content: right;
+}
+figure.logo {
+    position: absolute;
+    top: 363px;
+    height: 70px
+}
+
+.adorno{
+    margin-right: 50px;
+}
+
+article {
+    padding-right: 200px;
+    height: 300px;
+    display: inline-block;
+    position: fixed;
+    top: 420px;
+    margin-top: 20px;
+    background-image: url(./assets3/hockey_2.jpg);
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-display: 50px;
+  
+}
+
+
+
+
+
