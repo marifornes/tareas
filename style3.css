@@ -14,15 +14,13 @@ h1{
     color: white;
     text-align: center;
 }
-
-header{
-    height: 350px;
+header {
+    height: 250px;
     position: relative;
     background-image: url(./assets3/hockey_1.jpg);
-    position: static;
     background-size: 100%;
-  
 }
+
 #titulo{
     background-color: red;
     color: black;
@@ -58,10 +56,9 @@ section{
 
 article {
     padding-right: 200px;
-    height: 300px;
     display: inline-block;
     position: fixed;
-    top: 420px;
+    top: 359px;
 }
 
 .fechas{
@@ -69,16 +66,19 @@ article {
     
 }
 
+h3 {
+    margin-top: 20px;
+}
+
 img{
     height: 70px;
 }
 
 figure.logo {
-    position: absolute;
-    top: 363px;
+    position: fixed;
+    top: 258px;
+    left: 50px;
 }
-
-
 
 
 section.flex {
@@ -86,11 +86,17 @@ section.flex {
     justify-content: space-around;
 }
 
-footer{margin-top: 300px;
-    margin-bottom: 20px;
+aside {
+    position: relative;
+    display: inline;
+    top: 330px;
+}
+
+footer {
+    margin-top: 430px;
+    margin-bottom: 15px;
     text-align: center;
     background-color: firebrick;
-    
 }
 
 .container{

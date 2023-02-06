@@ -19,6 +19,9 @@ header {
     background-image: url(./assets3/hockey_1.jpg);
     background-size: 100%;
 }
+
+
+
 #titulo{
     background-color: red;
     color: black;
@@ -43,61 +46,15 @@ nav>a{
     translate: 10px;
 }
 
-
-
-figure{
-    margin-right: 50px;
-}
-
-
-
-
-section{
-    padding-left: 50px;
-    margin-left: 10px;
-    border: 2px solid transparent;
-    
-
-}
-
-
-img{
-    margin-left: 35px;
-    width: 72px;
-    height: 72px;
-   
-}
-
-section.contenido-flex {
-    display: flex;
-    justify-content: space-around;
+article {
+    display: inline-block;
+    position: fixed;
+    top: 10;
+    top: 324px;
 }
 
 
 figure.logo {
-    position: fixed;
-    top: 258px;
-    left: 15px;
-}
-
-
-img {
-    height: 70px;
-}
-article {
-    padding-left: 200px;
-    /* height: 300px; */
-    top: 20;
-    margin-top: 30px;
-}
-
-p {
-    margin-top: 30px;
-}
-
-footer{margin-top: 300px;
-    margin-bottom: 20px;
-    text-align: center;
-    background-color: firebrick;
-    
+    position: absolute;
+    top: 363px;
 }

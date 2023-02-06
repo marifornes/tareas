@@ -16,8 +16,8 @@ h1{
 }
 
 header {
-    height: 350px;
-    position: static;
+    height: 250px;
+    position: relative;
     background-image: url(./assets3/hockey_1.jpg);
     background-size: 100%;
 }
@@ -105,10 +105,10 @@ div#subtitulo {
 }
 
 figure.logo {
-    position: absolute;
-    top: 363px;
+    position: fixed;
+    top: 258px;
+    left: 50px;
 }
-
 
 footer{margin-top: 500px;
     margin-bottom: 20px;

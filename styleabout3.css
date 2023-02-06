@@ -15,12 +15,11 @@ h1{
 }
 
 
-header{
-    height: 350px;
+header {
+    height: 250px;
     position: relative;
     background-image: url(./assets3/hockey_1.jpg);
     background-size: 100%;
-  
 }
 
 #titulo{
@@ -49,44 +48,79 @@ nav{
     text-align: right;
 }
 
-
+h3 {
+    margin-top: 20px;
+}
 section.contenido-flex {
     
     display: flex;
     justify-content: space-around;
 }
+
+section{
+    padding-left: 50px;
+    margin-left: 10px;
+}
+
 div#container {
     margin-top: -126px;
     max-height: 74px;
     justify-content: right;
 }
-figure.logo {
-    position: absolute;
-    top: 363px;
-    height: 70px
-}
 
+figure.logo {
+    position: fixed;
+    top: 258px;
+    left: 50px;
+}
 .adorno{
     margin-right: 50px;
 }
 
-article {
-    padding-right: 200px;
-    height: 300px;
-    display: inline-block;
-    position: fixed;
-    top: 420px;
-    margin-top: 20px;
-    background-image: url(./assets3/hockey_2.jpg);
-}
+
 
 h3{
     font-family: 'Times New Roman', Times, serif;
     font-display: 50px;
-  
+  }
+
+article {
+    padding-right: 200px;
+    display: inline-block;
+    position: fixed;
+    top: 359px;
+}
+
+
+
+figure.imagen-1 {
+    padding: 5px;
+    position: absolute;
+}
+
+
+img.img3 {
+    margin-top: 50px;
+    position: relative;
+}
+
+
+img{
+    height: 70px;
+}
+
+figure.logo {
+    position: fixed;
+    top: 258px;
 }
 
 
 
 
 
+footer {
+    margin-top: 430px;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: firebrick;
+}
