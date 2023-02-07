@@ -38,9 +38,8 @@ nav{
     text-align: right;
 }
 nav>a{
-
- display: inline;
-    translate: 10px;
+      display: inline;
+      translate: 10px;
 }
 
 

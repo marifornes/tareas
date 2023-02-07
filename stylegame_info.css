@@ -51,7 +51,8 @@ nav{
 
 figure.logo {
     position: absolute;
-    top: 363px;
+    top: 263px;
+    left: 50px;
 }
 img{
     height: 70px;
@@ -59,9 +60,9 @@ img{
 
 section.contenido-flex {
     padding-left: 200px;
-    display: inline-block;
-    position: absolute;
-  
+    /* display: inline-block; */
+    /* position: absolute; */
+    margin-top: 20;
 }
 
 tbody {
@@ -76,15 +77,39 @@ h3 {
 }
 
 
-footer {
-    margin-top: 400px;
-    margin-bottom: 20px;
-    text-align: center;
-    background-color: firebrick;
-}
+
 aside.primero {
     font-weight: 900;
     margin-top: 20px;
     
 }
 
+aside.segundo {
+    font-weight: 900;
+    margin-top: 20px;
+    
+}
+h6 {
+    height: 15px;
+    margin-top: 650;
+}
+.mapas{
+    margin-top: 30px;
+}
+.mapas .mapas-1{
+    display: flex;
+    justify-content: center;   
+}
+
+img.mapas{
+    width: 200px;
+    height: 150px;
+    margin: 10px 20px;
+}
+
+footer {
+    margin-top: 430px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: firebrick;
+}

@@ -65,11 +65,11 @@ figure.logo {
 }
 
 article {
-    padding-left: 200px;
+    padding-left: 110px;
     height: 300px;
     display: inline-block;
     position: absolute;
-    top: 600px;
+    top: 555px;
 }
 
 img{
@@ -97,7 +97,9 @@ div#cuerpo2 {
     margin-top: 20px;
 }
 
-
+h3 {
+    line-height: 177px;
+}
 
 div#subtitulo {
     justify-content: center;
@@ -109,6 +111,11 @@ figure.logo {
     top: 258px;
     left: 50px;
 }
+
+ol {
+    list-style-type: "a";
+    list-style-position: inside;
+  }
 
 footer{margin-top: 500px;
     margin-bottom: 20px;
