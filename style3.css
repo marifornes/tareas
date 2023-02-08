@@ -4,13 +4,9 @@
     box-sizing: border-box; 
     scroll-behavior: auto;
    }
-
-
 body{
        font-family:'Times New Roman', Times, serif;
 }
-
-
 h1{
     background-color: black;
     color: white;
@@ -22,7 +18,6 @@ header {
     background-image: url(./assets3/hockey_1.jpg);
     background-size: 100%;
 }
-
 #titulo{
     background-color: red;
     color: black;
@@ -36,76 +31,169 @@ header {
     text-decoration: none;
     margin: 5px;
     border-radius: 7px;
-    
-   
 }
-
-
-
-
 nav{
     text-align: right;
 }
-
-
 nav>a{
-
-   display: inline;
-   translate: 10px;
-   }
-
-
+    display: inline;
+    translate: 10px;
+}
 section{
     padding-left: 50px;
     margin-left: 10px;
 }
-
 article {
     padding-right: 200px;
     display: inline-block;
     position: fixed;
     top: 359px;
 }
-
 .fechas{
     position: fixed;
-    
 }
-
-h3 {
-    margin-top: 20px;
+h3.mes {
+    line-height: 2;
+    top: 20;
 }
-
 img{
     height: 70px;
 }
-
 figure.logo {
     position: fixed;
     top: 258px;
     left: 50px;
 }
-
-
 section.flex {
     display: flex;
     justify-content: space-around;
 }
-
 aside {
     position: relative;
     display: inline;
     top: 330px;
 }
-
 footer {
-    margin-top: 430px;
+    margin-top: 570px;
     margin-bottom: 15px;
     text-align: center;
     background-color: firebrick;
 }
-
-
 .container{
     flex-wrap: nowrap;
+}
+section.contenido-flex {
+    display: flex;
+    justify-content: space-around;
+}
+div#container {
+    margin-top: -126px;
+    max-height: 74px;
+    justify-content: right;
+}
+.adorno{
+    margin-right: 50px;
+}
+h3.Mision{
+    font-family: 'Times New Roman', Times, serif;
+    font-display: 50px;
+}
+figure.imagen-1 {
+    padding: 5px;
+    position: relative;
+}
+img.img3 {
+    margin-top: 50px;
+    position: relative;
+}
+figure{
+    margin-right: 50px;
+}
+img.img3-1{
+    margin-top: 125px;
+    position: relative;
+}
+div#intro {
+    margin-top: 5px;
+    max-height: 74px;
+    justify-content: right;
+}
+element.style {
+    text-align: center;
+    gap: 20px;
+}
+.cuerpo {
+    margin-top: 20px;
+}
+div#cuerpo2 {
+    margin-top: 20px;
+}
+div#subtitulo {
+    justify-content: center;
+    text-align: center;
+}
+ol {
+    list-style-type: "a";
+    list-style-position: inside;
+}
+section{
+    padding-left: 50px;
+    margin-left: 10px;
+}
+section.contenido-flex-2{
+    padding-left: 200px;
+    margin-top: 20;
+}
+tbody {
+    background-color: coral;
+    font-weight: 900;
+}
+h3.Tit{
+    height: 50px;
+    font-style: oblique;
+}
+aside.primero {
+    font-weight: 900;
+    margin-top: 20px;
+}
+aside.segundo {
+    font-weight: 900;
+    margin-top: 20px;
+}
+h6 {
+    height: 15px;
+    margin-top: 650;
+}
+.mapas{
+    margin-top: 30px;
+}
+.mapas .mapas-1{
+    display: flex;
+    justify-content: center;   
+    top: 10px;
+}
+img.mapas{
+    width: 200px;
+    height: 120px;
+    margin: 10px 20px;
+}
+h3.reg{
+    text-align: center;
+}
+article.formulario {
+    padding-left: 120px;
+    padding-right: 100px;
+    top: 15;
+}
+.texto{
+    margin-top: 30px;
+}
+p{
+    margin-top: 10px;
+}
+.otros-datos {
+    display: flexbox;
+    top: 10;
+    margin: -20px;
+    position: relative;
 }
