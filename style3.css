@@ -193,7 +193,45 @@ p{
 }
 .otros-datos {
     display: flexbox;
-    top: 10;
+    top: 50px;
     margin: -20px;
     position: relative;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    header {
+        height: 209px;
+        position: relative;
+        background-image: url(./assets3/hockey_1.jpg);
+        background-size: 100%;
+    }
+    .fcc-btn {
+        background-color: grey;
+        color: white;
+        text-decoration: none;
+        border-radius: 7px;
+       }
+    figure.logo {
+        position: fixed;
+        top: 240px;
+        left: 10px;
+    }
+    img.img3-1 {
+        margin-top: 202px;
+        position: relative;
+    }
+    img {
+        height: 70px;
+    }
+
+}
+@media only screen and (min-width: 768x) and (max-width: 1023px){
+    aside {
+        position: relative;
+        display: inline;
+        top: 470px;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
+
+
 }
